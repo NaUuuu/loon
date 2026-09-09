@@ -1,5 +1,5 @@
 # ==============================
-# WeChat (整合 WeType)
+# WeChat (合并 WeType)
 # ==============================
 USER-AGENT,MicroMessenger*
 USER-AGENT,WeChat*
@@ -36,11 +36,11 @@ DOMAIN-SUFFIX,yun-hl.3g.qq.com
 IP-ASN,132203,no-resolve
 
 # ==============================
-# Bilibili (整合 BiliBiliIntl)
+# Bilibili (合并 BiliBiliIntl，恢复 CNAME 节点)
 # ==============================
 USER-AGENT,Bilibili*
 USER-AGENT,bili-inter*
-USER-AGENT,biliApp*
+USER-AGENT,bili*
 DOMAIN,112-81-125-43.dhost.00cdn.com
 DOMAIN,113-219-145-1.ksyungslb.com
 DOMAIN,114-236-92-129.ksyungslb.com
@@ -127,7 +127,7 @@ IP-CIDR,134.175.207.130/32,no-resolve
 IP-CIDR,203.107.1.0/24,no-resolve
 
 # ==============================
-# Baidu (整合 BaiDuTieBa)
+# Baidu (合并 BaiDuTieBa，恢复所有公有云/CDN节点)
 # ==============================
 DOMAIN-SUFFIX,17swan.com
 DOMAIN-SUFFIX,37swan.com
